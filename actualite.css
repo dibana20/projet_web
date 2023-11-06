@@ -1,0 +1,74 @@
+body {
+    font-family: cursive;
+    background-color: rgb(252, 248, 243); 
+    margin: 0;
+    padding: 15px;
+}
+
+/* Styles for the header */
+header {
+    background-color: wheat;
+    color: #0c0c0c;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #0c0c0c;
+    margin: 0 40px;
+}
+
+/* Styles for the news module */
+.news-module {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+/* Styles for headings */
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Styles for paragraph text */
+p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Styles for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: wheat;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Additional styles for the address link */
+footer a {
+    text-decoration: none;
+    color: #0e0c0c;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <meta charset="utf-8" />
+        <title>films</title>
+    </head>
+    <body>
+        <header>
+           
+            
+            <h1><strong>nos films </strong></h1>
+            
+            
+           
+        </header>
+        <br>
+        
+        
+        <h2><strong>films : </strong></h2>
+        <form action="traitement.php" method="POST">
+        <label for="nom de films">Nom :</label>
+        <input  type="text" id="nom" name="nom" required pattern="[A-Za-z]{2,}" title="Veuillez entrer un nom valide (lettres uniquement)"  size="20">
+        <br><br>
+        <label for="personnage principale">personnage : </label>
+        <input type="text" id="personnage" name="personnage" required pattern="[A-Za-z]{2,}" title="Veuillez entrer un prénom valide (lettres uniquement)"  size="20">
+        <br><br>
+        <label for="discription"> discription: </label>
+        <input type="text" id="discription" name="discription" required pattern="[A-Za-z]{2,}" title="Veuillez entrer un prénom valide (lettres uniquement)"  size="20">
+        <br><br>
+         
+        <input type="submit" value="entrez" >
+    </form>
+        <br><br>
+        <hr>
+        <footer>
+            <p>Vous pouvais nous contacter par email :</p>
+            <a href="mailto:esprint.etudiant@gmail.com " > Contact@esprit.tn </a>
+            <p>Adresse: Ghazela, Tunis</p>
+        </footer>
+
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="incription.css">
+        <meta charset="utf-8" />
+        <title>inscription</title>
+    </head>
+    <body>
+        <header>
+            
+            <img  align="center" src="logo.png" width="50" height="50">
+            <br><br><hr>
+            <a href="file:///C:/Users/DOUA/Desktop/projet_web/fontoffice.html" > Acceuil </a>
+        </header>
+        <br>
+        
+        
+        <h2><strong>Inscription : </strong></h2>
+        <form action="traitement.php" method="POST">
+        <label for="nom">Nom :</label>
+        <input  type="text" id="nom" name="nom" required pattern="[A-Za-z]{2,}" title="Veuillez entrer un nom valide (lettres uniquement)"  size="20">
+        <br><br>
+        <label for="prenom">Prénom : </label>
+        <input type="text" id="prenom" name="prenom" required pattern="[A-Za-z]{2,}" title="Veuillez entrer un prénom valide (lettres uniquement)"  size="20">
+        <br><br>
+        <label>Email :</label>
+        <input type="email" placeholder="contact@gmail.com" required>
+        <br><br>
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" name="telephone" id="telephone" required patten="[0-9]{10}" title="Veuillez entrer un numéro de téléphone valide (10 chiffres)" >
+        <br><br>
+       
+        <label for="Adresse"> adresse :</label>
+        <input  type="adresse" id="nom" name="adresse" >
+        <br><br>
+        <input type="submit" value="entrez" >
+    </form>
+        <br><br>
+        <p><img src ="kods.jpeg" height="500" width="1000" >
+        <hr>
+        <footer>
+            <p align="center">Vous pouvais nous contacter par email : <span><a href="EdensArtandMore@gmail.com " > edensartandmore@gmail.com </a></span></p>
+            <p align="center">Adresse: Ghazela, Tunis</p>
+        </footer>
+
+
+    </body>
+</html>

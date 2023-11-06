@@ -1,0 +1,44 @@
+header {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+}
+
+footer{
+    background-color: antiquewhite;
+    padding:  15px;
+}
+a{
+    color: rgb(69, 5, 5);
+}
+body{
+    background-color: rgb(252, 248, 243); 
+}
+
+table {
+    font-family: Arial;
+    width: 100%; /* Tableau largeur de 100% de la section */
+    border-collapse: collapse; /* Fusionnez les bordures des cellules du
+    tableau */
+    margin-top: 20px; /* Ajoutez une marge au-dessus du tableau */ }
+    table th, table td {
+    padding: 10px; /* Ajoutez de l'espacement interne aux cellules */ text-align: center; /* Centrez le contenu du tableau */
+    /*border: 100px solid rgb(255, 255, 255);*/
+    }
+nav a{
+    text-decoration: double;
+    color: rgb(248, 0, 0); 
+    margin:  10px;
+}
+
+h3{
+    font-size: 20px; 
+    font-family: Arial;
+}
+p{
+font-size: 16px; /* Définit la taille de la police du texte principal */ 
+line-height:0.5; /* Espacement des lignes du texte principal */
+color: #4d4d4d; 
+font-family: sans-serif;
+
+}

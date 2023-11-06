@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <meta charset="utf-8" />
+        <title>inscription</title>
+    </head>
+    <body>
+        <header>
+           
+            
+            <h1><strong> nos evenements </strong></h1>
+            <a href="#log out">log out</a>
+            
+           
+        </header>
+        <br>
+        
+        
+        <h2><strong>Evenement : </strong></h2>
+        <form action="traitement.php" method="POST">
+        <label for="nom">Nom :</label>
+        <input  type="text" id="nom" name="nom" required pattern="[A-Za-z]{2,}" title="Veuillez entrer un nom valide (lettres uniquement)"  size="20">
+        <br><br>
+        <label for="lieu">Prénom : </label>
+        <input type="text" id="lieu" name="lieu" required pattern="[A-Za-z]{2,}" title="Veuillez entrer un prénom valide (lettres uniquement)"  size="20">
+        <br><br>
+        <label>Action:</label>
+        <input type="description" placeholder="decribe" required>
+        <br><br>
+        <label for="date">date:</label>
+        <input type="date" name="date" id="date" required patten="[0-9]{10}" title="Veuillez entrer la date debut )" >
+        <br><br>
+       
+        <label for="duree"> Duree :</label>
+        <input  type="text" id="nom" name="duree" >
+        <br><br>
+        <input type="submit" value="entrez" >
+    </form>
+        <br><br>
+        <hr>
+
+
+    </body>
+</html>
